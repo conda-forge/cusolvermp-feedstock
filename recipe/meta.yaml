@@ -1,4 +1,4 @@
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 package:
   name: cusolvermp
@@ -15,7 +15,7 @@ build:
 requirements:
   run:
     - libcal-dev 0.4.4.50
-    - libcusolvermp-dev 0.5.1.690
+    - libcusolvermp-dev 0.6.0.712
 
 test:
   commands:

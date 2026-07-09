@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.9.0" %}
 
 package:
   name: cusolvermp
@@ -14,7 +14,7 @@ build:
 
 requirements:
   run:
-    - libcusolvermp-dev 0.8.0.3126
+    - libcusolvermp-dev 0.9.0.6427
 
 test:
   commands:
